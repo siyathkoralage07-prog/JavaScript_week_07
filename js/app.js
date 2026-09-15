@@ -140,3 +140,52 @@ let ii = 1;
     console.log(ii);
      ii++;
  }while(ii <= 10);
+
+ // functions (equivalent to methods in java)
+
+ function myFunction(){
+    console.log("hello world");
+ }
+
+ myFunction();
+ myFunction();
+ myFunction();
+ myFunction();
+
+ function add(x,y){
+    let result = x+y;
+    console.log(result);
+ }
+
+ function addNumbers(aa, bb){
+    return aa+bb;
+ }
+
+ let result1 = addNumbers(10, 15);
+  console.log(result1);
+
+  // function expressions
+
+  let names = function(){
+    console.log("hello World");
+  }
+
+  names();
+
+  //arrow function
+
+        // longer version
+  let ages = () => {
+    console.log("I'm 22 years old");
+  }
+  ages();
+        // shorter version
+  let agess = () => console.log("i'm 44 years old");
+
+  agess();
+
+  // Array
+
+        // arrays in js aren't type-safe so you can add almost any type of data if undefined
+  let Numbers = [1,2,3,4,5,true,"siyath"];
+  console.log(Numbers);
