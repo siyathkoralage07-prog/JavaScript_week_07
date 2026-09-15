@@ -2,7 +2,7 @@
 console.log("hello, world");
 
 // sending alerts
-alert("hi icet :")
+alert(" WORK HARD AND BE NICE TO PEOPLE!!!");
 
 // no need to use a semi-colon to define lines
 console.log("hi.....hi.....hi");
@@ -27,10 +27,116 @@ console.log(cashier);
 //learning js Arithmetic Operators
 // +, -, *, /
 
-let x = 10;
-let y = 20;
-console.log(x+y);
+let a = 10;
+let b = 20;
+console.log(a+b);
 
-let result = x + y;
+let result = a + b;
 console.log("result : " + result);
 
+// Comparison Operators
+// ==, ===, !=, !==, >, <, >=, <=
+
+let x = 10;
+let y = "10";
+console.log(x == y); // true
+console.log(x === y); // false
+console.log(x != y); // false
+console.log(x !== y); // true
+console.log(x > y); // false
+console.log(x < y); // true
+console.log(x >= y); // false
+console.log(x <= y); // true
+
+// Logical Operators
+// &&, ||, !
+
+let c = 10;
+let d = 20;
+if (c > 5 && d < 15) {
+    console.log("c is greater than 5 AND d is less than 15");
+}else if (c > 5 || d < 15) {
+    console.log("c is greater than 5 OR d is less than 15");
+}else {
+    console.log("c is NOT greater than 5 AND d is NOT less than 15");
+}
+
+// using ternary operator
+
+let marks = 30;
+if(marks >= 75? console.log("A"): marks >= 60? console.log("B"): marks >= 50? console.log("C"): marks >= 40? console.log("D"):console.log("F"));
+
+let unit = 120;
+let total = 0;
+
+if (unit <= 50) {
+    total = unit * 10;
+}else if (unit <= 100) {
+    total = unit * 15;
+}else if (unit >100){
+    total = unit * 20;
+}
+
+console.log("Your Total Bill is : " +total+ "/=");
+
+// switch statement
+
+let day = 3;
+switch (day) {
+    case 1: console.log("Monday");
+    break;
+    case 2: console.log("Tuesday");
+    break;
+    case 3: console.log("Wednesday");
+    break;
+    case 4: console.log("Thursday");
+    break;
+    case 5: console.log("Friday");
+    break;
+    case 6: console.log("Saturday");
+    break;
+    case 7: console.log("Sunday");
+    break;
+}
+
+// For Loop
+
+for(let i = 0; i <=10; i++){
+    console.log(i)
+}
+
+// while loop
+
+let num = 10;
+while(num != 10){
+    console.log("hehe"+num)
+    num++;
+}
+
+while(num > 0){
+    console.log(num);
+    num--;
+}
+
+let arithma = 1
+let totalOfNum = 0;
+
+while(arithma <= 10){
+    totalOfNum = arithma + totalOfNum;
+    arithma++;
+}
+console.log("Total = " + totalOfNum);
+
+let i = 1;
+while(i <= 10){
+    console.log("5 * "+ i + " = " + (5*i));
+    i++;
+}
+
+//do-while loop
+
+let ii = 1;
+ do{
+    console.log(ii);
+     ii++;
+ }while(ii <= 10);
