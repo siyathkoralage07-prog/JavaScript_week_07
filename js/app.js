@@ -189,3 +189,26 @@ let ii = 1;
         // arrays in js aren't type-safe so you can add almost any type of data if undefined
   let Numbers = [1,2,3,4,5,true,"siyath"];
   console.log(Numbers);
+
+  console.log(typeof Numbers);
+
+  let as = [1,2,3,4,5];
+  let bs = [1,2,3,4,5];
+
+  console.log(as === bs);
+
+  // objects
+
+        // js is also a object-oriented program
+let siyath = {
+    sname : "Siyath Koralage",
+    sage :  19,
+    sgender : "Male",
+    saddress : "Panadura",
+    isActive : true
+};
+
+        // data retrieval from a object
+console.log(siyath);
+console.log(siyath.sname);
+console.log(siyath.isActive);
